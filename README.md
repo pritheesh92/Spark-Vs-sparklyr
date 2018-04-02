@@ -90,6 +90,6 @@ physicians_tbl <- spark_read_csv(sc,name = "physicians_tbl",path ="s3://bigdatap
 
 We further compared data analyses using sparklyr vs spark, by demonstrating advantages of sparklyr.
 
-For further demonstration on data analyses using sparkly, refer to file sparklyr.md
+For further demonstration on data analyses using sparklyr, refer to file sparklyr.md
 
 For the same analyses on spark, refer file spark.py
